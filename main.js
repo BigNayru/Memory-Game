@@ -10,7 +10,7 @@
         function easy(){
                 suite.innerHTML=entier;
                 setTimeout(function(){
-                    suite.innerHTML="XXXXXX"}, 10000);
+                    suite.innerHTML="XXXXXX"}, 8000);
         }
         
         function hard(){

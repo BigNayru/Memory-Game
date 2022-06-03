@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+        
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">        
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <title>Memory Game</title>
+    </head>
+
+    <body>
+    <div>
+        <h1>Choisissez votre niveau de difficulté :</h1>
+
+            <div class="boutons">
+                <input type="button" class="facile" value="FACILE (8 secondes)" id="facile" onclick="easy()">
+                <input type="button" class="difficile" value="DIFFICILE (3 secondes)" id="difficile" onclick="hard()">
+            </div>
+        <p class="suite" id="suite">XXXXXX</p>
+        <input type="number" id="answer">
+        <button onclick="validation()">ENVOYER</button>
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+</html>

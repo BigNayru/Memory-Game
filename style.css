@@ -1,0 +1,30 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body, html{
+  background: rgb(187,135,233);
+  background: linear-gradient(180deg, rgba(187,135,233,1) 0%, rgba(59,121,230,1) 100%);
+  color:white;
+  text-align:center;
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  padding: 5%;
+  font-size: 60px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.facile{
+  background-color: white;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 16px;
+  transition: background-color 1s;
+}
+
+.facile:hover {
+  background-color: rgb(40, 166, 40);
+}
