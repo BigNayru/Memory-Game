@@ -16,12 +16,14 @@
 
     <body>
     <div>
+        <h1>Testons votre mémoire !</h1>
         <h1>Choisissez votre niveau de difficulté :</h1>
 
-            <div class="boutons">
-                <input type="button" class="facile" value="FACILE (8 secondes)" id="facile" onclick="easy()">
-                <input type="button" class="difficile" value="DIFFICILE (3 secondes)" id="difficile" onclick="hard()">
+            <div>
+                <input type="button" class="facile bouton"  value="FACILE" id="facile" onclick="easy()">
+                <input type="button" class="difficile bouton" value="DIFFICILE" id="difficile" onclick="hard()">
             </div>
+
         <p class="suite" id="suite">XXXXXX</p>
         <input type="number" id="answer">
         <button onclick="validation()">ENVOYER</button>

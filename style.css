@@ -12,19 +12,47 @@ body, html{
 }
 
 h1{
-  padding: 5%;
+  padding: 25px;
   font-size: 60px;
   text-shadow: 2px 2px 3px black;
 }
 
+.bouton{
+  margin: 70px;
+}
+
 .facile{
+  font-size: 40px;
   background-color: white;
-  border-color: transparent;
+  border: none;
   border-radius: 8px;
-  padding: 16px;
+  padding: 15px;
   transition: background-color 1s;
+  box-shadow: 1px 1px 2px black;
 }
 
 .facile:hover {
-  background-color: rgb(40, 166, 40);
+  color: white;
+  background-color: rgb(36, 198, 36);
+}
+
+.difficile{
+  font-size: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  transition: background-color 1s;
+  box-shadow: 1px 1px 2px black;
+}
+
+.difficile:hover {
+  color: white;
+  background-color: #E42B11;
+}
+
+.suite {
+  padding: 25px;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px black;
 }
