@@ -17,16 +17,18 @@
     <body>
     <div>
         <h1>Testons votre mémoire !</h1>
-        <h1>Choisissez votre niveau de difficulté :</h1>
-
+        <h2>Choisissez votre niveau de difficulté :</h2>
             <div>
                 <input type="button" class="facile bouton"  value="FACILE" id="facile" onclick="easy()">
                 <input type="button" class="difficile bouton" value="DIFFICILE" id="difficile" onclick="hard()">
             </div>
+            
+            <p class="suite" id="suite">XXXXXX</p>
 
-        <p class="suite" id="suite">XXXXXX</p>
-        <input type="number" id="answer">
-        <button onclick="validation()">ENVOYER</button>
+            <div class="result">
+                <input type="number" id="answer">
+                <button class="validation" onclick="validation()">VALIDER</button>   
+            </div>
     </div>
 
     <script src="main.js"> </script>

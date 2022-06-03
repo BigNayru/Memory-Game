@@ -14,8 +14,15 @@ body, html{
 h1{
   padding: 25px;
   font-size: 60px;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 1px 1px 2px black;
 }
+
+h2{
+  padding: 25px;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+}
+
 
 .bouton{
   margin: 70px;
@@ -31,7 +38,7 @@ h1{
   box-shadow: 1px 1px 2px black;
 }
 
-.facile:hover {
+.facile:hover{
   color: white;
   background-color: rgb(36, 198, 36);
 }
@@ -46,13 +53,29 @@ h1{
   box-shadow: 1px 1px 2px black;
 }
 
-.difficile:hover {
+.difficile:hover{
   color: white;
   background-color: #E42B11;
 }
 
-.suite {
-  padding: 25px;
-  font-size: 30px;
-  text-shadow: 2px 2px 3px black;
+.result{
+align-items: center;}
+
+.suite{
+  padding: 10px;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.validation {
+  color: white;
+  border:none;
+  background-color: rgb(152, 71, 227);
+  font-size: 22px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.validation:hover{
+  color: white;
+  background-color: rgb(103, 32, 170);
 }
