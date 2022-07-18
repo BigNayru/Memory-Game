@@ -6,6 +6,10 @@ Bienvenue à vous sur cette documentation.
 
 Laissez moi vous expliquer plus précisémment de quoi il s'agit.
 
+## Tester l'application :
+
+URL : https://nayru-memory-game.netlify.app/
+
 ## Quel est ce projet ?
 
 Il s'agit d'un jeu de mémoire réalisé en cours.
@@ -24,7 +28,7 @@ Une fois qu'il a cliqué sur "Valider", on lui indique si il a gagné ou perdu.
 
 Je suis actif sur les réseaux sociaux, je vous laisse ci-dessous les plateformes où me contacter :
 
-   - Mon portfolio : [ryan-pina.fr](https://ryan-pina.com/)
+   - Mon portfolio : [ryan-pina.com](https://ryan-pina.com/)
    - Mon LinkedIn : [linkedin.com/in/ryan-pina-silasse](www.linkedin.com/in/ryan-pina-silasse)
 
 
